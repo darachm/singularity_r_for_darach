@@ -19,6 +19,7 @@ MAINTAINER darachm
     apt-get -y upgrade
 #    apt-get -y install git wget g++ gcc-4.8 
     apt-get -y install libxml2-dev libssl-dev curl libcurl4-openssl-dev r-base r-base-dev
+    apt-get -y install pandoc
 
 
     Rscript -e 'install.packages("tidyverse");'
