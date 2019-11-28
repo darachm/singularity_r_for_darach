@@ -35,6 +35,7 @@ MAINTAINER darachm
     apt-get -y upgrade
 
     Rscript -e 'install.packages("tidyverse");'
+    Rscript -e 'install.packages("magrittr");'
     Rscript -e 'install.packages("EBImage");'
     Rscript -e 'install.packages("ggrepel");'
     Rscript -e 'install.packages("pheatmap");'
