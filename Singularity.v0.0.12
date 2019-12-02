@@ -31,7 +31,7 @@ MAINTAINER darachm
     apt-get -y update
 
     apt-get -y install r-base r-base-dev
-    apt-get -y install vim gnupg2 git wget g++ gcc-4.8 libxml2-dev libssl-dev curl libcurl4-openssl-dev pandoc texlive
+    apt-get -y install vim gnupg2 git wget g++ gcc-4.8 libxml2-dev libssl-dev curl libcurl4-openssl-dev pandoc 
 
     apt-get -y upgrade
 
