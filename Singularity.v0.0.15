@@ -55,7 +55,7 @@ MAINTAINER darachm
     Rscript -e 'install.packages("DBI",dependencies=T);'
     Rscript -e 'install.packages("RSQLite",dependencies=T);'
     Rscript -e 'install.packages("mcr",dependencies=T);'
-    Rscript -e 'install.packages("signif",dependencies=T);'
+    Rscript -e 'install.packages("ggsignif",dependencies=T);'
     Rscript -e 'devtools::install_github("LKremer/ggpointdensity",dependencies=T);'
 
     Rscript -e 'install.packages("BiocManager",dependencies=T);'
